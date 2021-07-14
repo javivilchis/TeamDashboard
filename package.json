@@ -1,0 +1,33 @@
+{
+  "name": "employee",
+  "version": "1.0.0",
+  "description": "This is the employee dashboard",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javivilchis/TeamDashboard.git"
+  },
+  "keywords": [
+    "team",
+    "dashboard"
+  ],
+  "author": "Javier Vilchis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javivilchis/TeamDashboard/issues"
+  },
+  "homepage": "https://github.com/javivilchis/TeamDashboard#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
