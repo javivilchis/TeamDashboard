@@ -1,6 +1,6 @@
 # Team Dashboard Generator
 
-## Your Task
+## The objective
 
 The Objective is to create a Dashboard that generates a Team Member sitemap to help the Different teams be knowleadgeable of who is who in the team. 
 
