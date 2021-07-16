@@ -11,7 +11,7 @@ The following image capture shows the mockup to be seen when the html document i
 ![The HTML file will have a Team Name at the top of the page and listed team members set inside a card system which will show their name, role, id, email, office number and github account when available](./Assets/TeamDashboard-mockup.png)
 
 You can take a look at the video on how it will look like when it is all done.
-[Mockup Video of HTML ](https://drive.google.com/file/d/1LtFMlYgtgDPJ-9TZXoSYkGgQdh6BHJsb/view)
+[Mockup Video of HTML](https://drive.google.com/file/d/1UlUGlizRJvNl7N6s8Pe7LLL_jc2vc_45/view)
 
 ## How to use
 

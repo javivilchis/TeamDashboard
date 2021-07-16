@@ -1,11 +1,11 @@
 const { it, expect } = require("@jest/globals");
-const Employee = require("../lib/employee");
+const Manager = require("../lib/manager");
 
 describe("Manager class", () => {
      describe("Manager instantiation", () => {
 
           it("should create a new Manager class", () => {
-               const obj = new Manager("javier", 0, "test@test.com","1231231234");
+               const obj = new Manager("Javier", 0, "test@test.com","1231231234");
                expect(obj instanceof Manager).toEqual(true);
           });
 
