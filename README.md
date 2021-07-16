@@ -23,6 +23,12 @@ node index.js
 ```
 * answer the prompted questionaire
 * once you are done answering the questions you will see an HTML file document generated.
+## Test
+
+I am using Jest to test the script, to run the tests please run the following command.
+```
+npm test
+```
 
 ## Questions?
 
