@@ -154,3 +154,5 @@ function renderCard(teamMember){
           `
     }
 }
+
+module.exports = createHTML;

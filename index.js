@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const createHTML = require('./src/template');
 
 inquirer
   .prompt([
@@ -27,8 +28,11 @@ inquirer
      }
   ])
   .then((data) => {
-    const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+     //add more questions to the inquirer
+
      
+    const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+
     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
       err ? console.log(err) : console.log('Success!')
     );
